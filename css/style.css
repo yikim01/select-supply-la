@@ -1,0 +1,17 @@
+.member-form {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.member-form:hover {
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+}
