@@ -1,17 +1,35 @@
+div {
+  margin: 0 auto;
+}
+
 .member-form {
   display: inline-block;
-  width: 200px;
+  width: 300px;
+  margin: 0 auto;
   padding: 8px;
-  color: #000;
-  border: 1px solid #000;
+  color: #828282;
+  border: 2px solid #828282;
   text-align: center;
   outline: none;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+.member-form:hover {
+  background-color: #828282;
 }
 
-.member-form:hover {
-  background-color: #000;
-  color: white;
+.button:hover {
+  color: #ffffff;
+  background-color: #828282;
   text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+  color: #828282;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
 }
